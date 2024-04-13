@@ -8,7 +8,7 @@ jobs:
       - checkout
       - run: make deps
       - run: make test
-      - run: make docker_biuld
+      - run: make docker_build
 workflows:
   basic:
     jobs:

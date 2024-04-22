@@ -8,7 +8,7 @@ jobs:
       - checkout
       - run: make deps
       - run: make test
-      - run: meke lint
+      - run: make lint
       - run: make docker_build
       - run: make docker_push
 workflows:
